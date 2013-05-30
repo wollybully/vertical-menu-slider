@@ -1,0 +1,139 @@
+/* FOR DEMO PURPOSES */
+
+* {
+	font-family: Calibri, "Myriad Pro", "Trebuchet MS", "Segoe UI", Arial, Tahoma;
+}
+body {
+	margin: 50px;
+	padding:0;
+	background: #2e2e2e;
+}
+td {vertical-align: top;}
+h3 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 13px;
+	height: 42px;
+	line-height: 43px;
+	padding: 0 15px;
+	margin:0;
+	background: #1f1f1f;
+	
+	/*css3 specific*/
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.menu ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	background: #3b3b3b;
+}
+.menu ul > li {
+	display: block;
+	margin:0;
+	padding:0;
+}
+.menu ul > li > a {
+	display: block;
+	line-height: 17px;
+	color: #a7a7a7;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px 25px 10px 15px;
+	cursor: pointer;
+	overflow: hidden;
+	border-bottom: solid 1px #4a4a4a;
+
+	/*css3 specific*/
+	text-shadow: 1px 1px 0px  rgba(0, 0, 0, 0.4);
+}
+.menu ul > li > a:hover {
+	background: #4a4a4a;
+	color: #ffffff;
+}
+
+.menu ul > li > a > img {
+	float: left;
+	display: block;
+	border: solid 2px #2e2e2e;
+	margin-right: 8px;
+}
+.menu ul > li > a > h6 {
+	color: inherit;
+	font-size: 15px;
+	line-height: 17px;
+	padding:0;
+	margin:0;
+	margin-top: 1px;
+	max-height: 34px;
+	overflow: hidden;
+}
+.menu ul > li > a > p {
+	color: #7d7d7d;
+	font-size: 13px;
+	line-height: 15px;
+	padding: 0;
+	margin: 3px 0 1px 0;
+}
+.menu ul > li > a:hover p {
+	color: #a7a7a7;
+}
+
+
+/* for menus that are going to be paginated */
+
+.paginate .wrapper {
+	overflow: hidden;
+	position: relative;
+}
+.paginate ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+/* menu pagination */
+
+.paginate .pagination {
+	padding:10px;
+	background: #1f1f1f;
+	position: relative;
+	height: 20px;
+	overflow: hidden;
+	
+	
+	/*css3 specific*/
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.paginate .pagination a {
+	padding:0;
+	margin:0 8px 0 0;
+	border: none;
+	display: block;
+	float: left;
+	height: 21px;
+	width: 21px;
+	text-align: center;
+	line-height: 22px;
+	font-size: 12px;
+	background: #3b3b3b;
+	text-decoration: none;
+	color: #a7a7a7;
+}
+.paginate .pagination a:hover, .paginate .pagination a.selected {
+	color: #ffffff;
+	background: #bb1d5c;
+}
